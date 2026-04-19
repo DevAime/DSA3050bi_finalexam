@@ -1,5 +1,4 @@
 
-```markdown
 # 🌍 Global Fuel Price Analytics — Power BI Dashboard
 
 An advanced Business Intelligence solution built in Microsoft Power BI,
@@ -44,7 +43,7 @@ This project answers the following questions:
 
 ## 📂 Repository Structure
 
-```
+
 global-fuel-price-analytics/
 │
 ├── data/
@@ -81,7 +80,6 @@ global-fuel-price-analytics/
 │   └── 22_bookmarks_panel.png
 │
 └── README.md
-```
 
 ---
 
@@ -153,7 +151,7 @@ filtering, slicing, and grouping across the entire model.
 A **star schema** was implemented with one central fact table
 and three surrounding dimension tables.
 
-```
+
 DimDate ──────────────┐
                       │
 DimCountry ───────── FactFuelPrices
@@ -315,4 +313,4 @@ Includes a Back button to return to Page 2.
 [Your Institution / Course Name]
 [Your Email — optional]
 [Your LinkedIn — optional]
-```
+
