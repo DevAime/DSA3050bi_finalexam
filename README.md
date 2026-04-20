@@ -1,7 +1,10 @@
 # Global Fuel Price Analytics — Power BI Dashboard
+## DSA3050: Business Intellingence
+#### Aime 670232
 
-Access here is the deployed public dashboard:
-https://app.powerbi.com/view?r=eyJrIjoiZDQ1NjdmOGMtZjU1MS00MDNlLTgzZWYtMzg3ZGFlM2M3YTkyIiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9
+> **Live Dashboard**
+> Access the deployed public dashboard here:
+> [https://app.powerbi.com/view?r=eyJrIjoiZDQ1NjdmOGMtZjU1MS00MDNlLTgzZWYtMzg3ZGFlM2M3YTkyIiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9](https://app.powerbi.com/view?r=eyJrIjoiZDQ1NjdmOGMtZjU1MS00MDNlLTgzZWYtMzg3ZGFlM2M3YTkyIiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9)
 
 An advanced Business Intelligence solution built in Microsoft Power BI,
 analyzing global weekly fuel prices from 2020 to 2026 across multiple
@@ -88,6 +91,9 @@ before loading data into the model.
 | 9 | Conditional column | Price Category — High if price above 1.5 USD, else Low |
 | 10 | Build dimension tables | DimDate, DimCountry, DimFuelType created via reference queries |
 
+<img width="289" height="594" alt="Screenshot 2026-04-18 220148" src="https://github.com/user-attachments/assets/46420ac7-b102-4f31-ae1b-5cba6f3ff695" />
+
+
 ### Core Transformation — Unpivot
 
 The unpivot step is the most structurally important transformation.
@@ -115,7 +121,8 @@ After:
 A star schema was implemented with one central fact table
 and three surrounding dimension tables.
 
-![Model View](./screenshots/08_model_view.png)
+<img width="890" height="594" alt="Screenshot 2026-04-18 224225" src="https://github.com/user-attachments/assets/fddd112c-1d4d-45d0-8eca-b7e4a60a09fd" />
+
 
 ### Tables
 
@@ -173,7 +180,8 @@ Global KPI cards showing Avg Fuel Price (2.04 USD), Avg Brent Crude
 by fuel type, regional bar chart, and fuel type donut chart.
 Slicers: Year, Fuel Type, Income Level.
 
-![Executive Summary](./screenshots/15_page1_executive_summary.png)
+<img width="957" height="537" alt="Screenshot 2026-04-19 145501" src="https://github.com/user-attachments/assets/ad154b90-0941-4463-9c95-6bcaaa7d6223" />
+
 
 ### Page 2 — Country and Fuel Deep Dive
 
@@ -182,7 +190,8 @@ Top and bottom country bar chart, country by fuel type matrix,
 scatter chart plotting Brent crude against pump price sized by
 tax percentage. Slicers: Region, Subsidy Level.
 
-![Country Deep Dive](./screenshots/16_page2_country_deep_dive.png)
+<img width="963" height="541" alt="Screenshot 2026-04-19 145518" src="https://github.com/user-attachments/assets/e2f89a36-368e-43a9-b11a-fb9b47985086" />
+
 
 ### Page 3 — Time Intelligence and Performance Monitoring
 
@@ -191,7 +200,8 @@ crude over time. YTD area chart comparing years. Country ranking
 table showing YoY changes with Venezuela and Iran as outliers.
 Price Premium over Brent KPI card. Slicers: Year, Region.
 
-![Time Intelligence](./screenshots/18_page3_time_intelligence.png)
+<img width="958" height="538" alt="Screenshot 2026-04-19 145533" src="https://github.com/user-attachments/assets/274173ce-e1f9-44fe-bfd2-667e93b0cc50" />
+
 
 ### Page 4 — Country Profile (Drillthrough)
 
@@ -200,7 +210,8 @@ selecting Drill through. Shows full price history by fuel type,
 annual benchmark comparison, year-by-year summary table, and all
 country-level KPIs. Includes a Back button to return to Page 2.
 
-![Country Profile](./screenshots/20_page4_drillthrough_country.png)
+<img width="956" height="542" alt="Screenshot 2026-04-19 145548" src="https://github.com/user-attachments/assets/baebd52e-899b-4833-bdcf-c108863f5d6c" />
+
 
 ---
 
