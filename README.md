@@ -1,6 +1,6 @@
 # Global Fuel Price Analytics — Power BI Dashboard
 ## DSA3050: Business Intellingence
-#### Aime 670232
+### Aime Muganga 670232
 
 > **Live Dashboard**
 > Access the deployed public dashboard here:
