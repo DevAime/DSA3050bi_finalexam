@@ -1,6 +1,7 @@
 # Global Fuel Price Analytics — Power BI Dashboard
 
-[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-View%20Now-yellow?style=for-the-badge&logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiZDQ1NjdmOGMtZjU1MS00MDNlLTgzZWYtMzg3ZGFlM2M3YTkyIiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9)
+Access here is the deployed public dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiZDQ1NjdmOGMtZjU1MS00MDNlLTgzZWYtMzg3ZGFlM2M3YTkyIiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9
 
 An advanced Business Intelligence solution built in Microsoft Power BI,
 analyzing global weekly fuel prices from 2020 to 2026 across multiple
@@ -38,46 +39,6 @@ This project answers the following core questions:
 
 ---
 
-## Repository Structure
-
-global-fuel-price-analytics/
-│
-├── data/
-│   └── global_fuel_prices.csv
-│
-├── pbix/
-│   └── Global_Fuel_Price_Analytics.pbix
-│
-├── report/
-│   └── Global_Fuel_Price_Analytics_Report.pdf
-│
-├── screenshots/
-│   ├── 01_raw_data.png
-│   ├── 02_power_query_raw.png
-│   ├── 03_data_types.png
-│   ├── 04_column_quality.png
-│   ├── 05_unpivot_before_after.png
-│   ├── 06_applied_steps.png
-│   ├── 07_queries_panel.png
-│   ├── 08_model_view.png
-│   ├── 09_price_category_column.png
-│   ├── 10_brent_ratio_column.png
-│   ├── 11_measure_fuel_contribution.png
-│   ├── 12_measure_yoy.png
-│   ├── 13_measure_price_premium.png
-│   ├── 14_navigation_buttons.png
-│   ├── 15_page1_executive_summary.png
-│   ├── 16_page2_country_deep_dive.png
-│   ├── 17_page2_map_crossfilter.png
-│   ├── 18_page3_time_intelligence.png
-│   ├── 19_page3_ranking_table.png
-│   ├── 20_page4_drillthrough_country.png
-│   ├── 21_drillthrough_menu.png
-│   └── 22_bookmarks_panel.png
-│
-└── README.md
-
----
 
 ## Dataset Description
 
